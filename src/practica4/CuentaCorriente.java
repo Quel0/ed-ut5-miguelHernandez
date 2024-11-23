@@ -5,7 +5,7 @@ public class CuentaCorriente {
     private String DNI, nombre;
     private float saldo;
 
-    //Contructor parametrizado
+    //Contructor parametrizado que recibe dos parámetros y los iguala con this a los atributos private de la clase
     public CuentaCorriente(String DNI, String nombre) {
         this.DNI = DNI;
         this.nombre = nombre;
