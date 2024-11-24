@@ -34,7 +34,7 @@ public class CalendarioApp {
         cal1.mostrar();
 
         // Probar incrementar año
-        System.out.println("\nProbando incrementarAnyo:");
+        System.out.println("\nProbando incrementarAño:");
         cal1.incrementarAnyo(1);
         System.out.println("Después de incrementar un año:");
         cal1.mostrar();
